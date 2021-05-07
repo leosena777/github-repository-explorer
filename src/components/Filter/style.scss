@@ -1,0 +1,16 @@
+.form-container {
+  box-sizing: border-box;
+
+  input {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-bottom: 2px solid #24292e;
+    background: #c5c5c5;
+    font-size: 20px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
